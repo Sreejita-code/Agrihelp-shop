@@ -1,0 +1,130 @@
+.shop-page {
+  text-align: center;
+  padding: 50px;
+  background-image: url('/images/shop-background1.jpg'); /* Replace with the path to your background image */
+  background-size: cover; /* Ensures the image covers the entire background */
+  background-position: center; /* Center the image */
+  background-attachment: fixed; /* Fix the background image while scrolling */
+}
+
+.shop-page h2 {
+  font-family: 'Arial', sans-serif; /* Change font for the main heading */
+  margin-bottom: 30px;
+  font-size: 5em;
+  color: aqua; /* Adjust size and color as needed */
+}
+
+.shop-page h3 {
+  font-family: 'Arial', sans-serif; /* Change font for subheadings */
+  margin-top: 50px;
+  font-size: 2.5em; /* Increase the size */
+  text-decoration: underline; /* Underline the text */
+  color: wheat; /* Change color */
+}
+
+.product-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  width: 200px; /* Fixed width for consistency */
+  background-color: white; /* Added to make the card stand out against the background */
+}
+
+.product-card img {
+  width: 100%; /* Ensures the image fits within the card */
+  height: 150px; /* Fixed height */
+  object-fit: cover; /* Maintains aspect ratio and fills the given size */
+}
+
+.product-card .product-name {
+  font-style: italic; /* Change font to italics */
+  font-size: 1.2em; /* Smaller than the subheadings */
+  margin: 10px 0;
+  color: brown; /* Change color */
+}
+
+.product-card .price {
+  margin: 5px 0;
+}
+
+.product-card .original-price {
+  text-decoration: line-through;
+  color: red;
+  margin-right: 10px;
+}
+
+.product-card .discount-price {
+  color: green;
+  font-weight: bold;
+}
+
+.product-card button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.top-section {
+  margin-bottom: 50px;
+}
+
+.bottom-heading {
+  font-family: 'Arial', sans-serif; /* Change font for subheadings */
+  font-size: 2.5em; /* Adjust size */
+  text-decoration: underline; /* Underline the text */
+  color: wheat; /* Change color */
+  margin-bottom: 20px;
+}
+
+.bottom-image, .additional-image {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.bottom-image img, .additional-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.footer .footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer .app-name {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.footer .contact-info {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 1.2em;
+}
+
+.footer .contact-icon {
+  font-size: 1.5em;
+}

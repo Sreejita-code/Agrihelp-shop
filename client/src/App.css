@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  background-color: #4CAF50;
+  padding: 10px;
+  color: white;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.front-page {
+  text-align: center;
+  padding: 50px;
+}
+
+.front-buttons a {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.login-page, .shop-page {
+  text-align: center;
+  padding: 50px;
+}
+
+.product-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.product-card {
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.product-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.product-card h3 {
+  margin: 10px 0;
+}
+
+.product-card button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
